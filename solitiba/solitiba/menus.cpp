@@ -21,7 +21,7 @@ void Menus::Dialogue_Missing(void) {
 unsigned int Menus::Dialogue_Edit(void) {
 	std::cout << "\n\nWhat do you wish to change?\n\n� 1 = Player name\n� 2 = Gender\n� 3 = Both\n� Any key = Nothing\n\nChoose one: ";
 
-	int choice;
+	unsigned int choice;
 	std::cin >> choice;
 	system("cls");
 	return choice;
